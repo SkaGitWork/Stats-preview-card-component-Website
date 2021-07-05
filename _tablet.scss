@@ -1,0 +1,25 @@
+@media screen and (max-width:1023px) and (min-width:768px){
+  html {
+  font-size: 18px;
+}
+
+.main{
+    padding: 3rem 3rem;
+  }
+
+.content__container {
+    width: 70%;
+    height: 65vh;
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+}

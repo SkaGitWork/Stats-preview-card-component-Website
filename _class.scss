@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+$title_color: hsl(277, 64%, 61%);
+$image_bg: #9f56cc;
+$bg_color: #0a0c1b;
+$content_color: #1a1836;
+
+$main_heading_stats: white;
+$main_paragraph: hsla(0, 0%, 100%, 0.75);
+$stat_headings: hsla(0, 0%, 100%, 0.6);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: $bg_color;
+}
+
+.title {
+  font-size: 2rem;
+  color: $main_heading_stats;
+}
+.accent {
+  color: $title_color;
+}
+.paragraph {
+  font-size: 1rem;
+  color: $main_paragraph;
+}
+.stat__info {
+  font-size: 1rem;
+  color: $main_paragraph;
+}
+.stat__heading {
+  font-size: 1.5rem;
+  color: $main_heading_stats;
+}
+.content {
+  color: $title_color;
+  background-color: $content_color;
+}
+
+// Image
+.image-header{
+    height: fit-content;
+  }
+.image--mobile {
+  display: block;
+}
+.image--desktop {
+  display: none;
+}
+
+// Stats
+  .stat__heading {
+    text-transform: uppercase;
+  }
+  .stat__info {
+    text-transform: uppercase;
+  }

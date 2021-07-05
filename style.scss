@@ -1,0 +1,43 @@
+@import "./class";
+/* ---------------------------------- Style --------------------------------- */
+
+.main{
+    padding: 3rem 1rem;
+  }
+
+.wrapper {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+// Header image
+.image-header {
+  background-color: $image_bg;
+}
+
+.image {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  mix-blend-mode: multiply;
+}
+
+// Content
+.content {
+  text-align: center;
+}
+
+.title {
+  padding: 1rem 1rem 0;
+}
+
+.paragraph {
+  margin: 2rem;
+  line-height: 1.5rem;
+}
+
+.stat {
+  padding-bottom: 2rem;
+}
+
+@import "./tablet";
+@import "./desktop";
